@@ -70,6 +70,7 @@ def all_holidays_with_bbq(holiday_hash)
 holiday_supplies.each do |season, holiday, item|
 if holiday_supplies[:season][:holiday][:item] == "BBQ"
   bbq_array << holiday_supplies.key
+  binding.pry
 end
 end
 end
