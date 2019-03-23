@@ -42,7 +42,6 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # remember to return the updated hash
   holiday_supplies[:season][:holiday_name] << supply_array 
   holiday_supplies
-    binding.pry
 
 end
 
