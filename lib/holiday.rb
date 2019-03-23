@@ -66,10 +66,10 @@ end
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
-  BBQ_array = []
+  bbq_array = []
 holiday_supplies.each do |season, holiday, item|
 if holiday_supplies[:season][:holiday][:item] == "BBQ"
-  BBQ_array << holiday_supplies.key
+  bbq_array << holiday_supplies.key
 end
 end
 end
