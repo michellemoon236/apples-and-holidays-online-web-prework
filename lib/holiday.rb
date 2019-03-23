@@ -42,6 +42,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
   # remember to return the updated hash
   holiday_supplies[:season][:holiday_name] << supply_array 
   holiday_supplies
+    binding.pry
 
 end
 
@@ -70,7 +71,7 @@ def all_holidays_with_bbq(holiday_hash)
 holiday_supplies.each do |season, holiday, item|
 if holiday_supplies[:season][:holiday][:item] == "BBQ"
   bbq_array << holiday_supplies.key
-  binding.pry
+
 end
 end
 end
