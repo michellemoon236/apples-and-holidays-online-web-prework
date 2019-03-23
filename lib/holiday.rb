@@ -48,7 +48,7 @@ end
 def all_winter_holiday_supplies(holiday_hash)
   # return an array of all of the supplies that are used in the winter season
   winter_supplies = []
-  winter_supplies << holiday_supplies[:winter][:christmas] << holiday_supplies[:winter][:christmas]
+  winter_supplies << holiday_supplies[:winter][:christmas] << holiday_supplies[:winter][:new_years]
   winter_supplies.flatten
 end
 
